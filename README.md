@@ -18,3 +18,14 @@ View your app in AI Studio: https://ai.studio/apps/bundled/live_audio
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Scripts
+
+- `npm run dev`: Start the dev server
+- `npm run build`: Build for production
+- `npm run preview`: Preview the production build locally
+
+## Deploy (GitHub Pages)
+
+This repo includes a GitHub Actions workflow that builds and deploys the app
+to GitHub Pages on every push to `main`.
